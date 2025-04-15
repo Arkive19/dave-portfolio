@@ -1,0 +1,84 @@
+@import url('https://fonts.cdnfonts.com/css/cubano');
+
+*{
+    font-family: "sofia-pro",sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(24,28,28);
+}
+
+
+.headerCnt{
+   display: flex;
+   flex-direction: row;
+}
+
+.nav{
+    aspect-ratio: 1/1;
+    width: 8vh ;
+    border-radius: 5vh;
+    background-color: black;
+    margin: 5vh 0.4vw 0vh 0.4vw;
+    transition: 100ms ease-in-out;
+    border: 1px solid black;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subCnt1{
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.subCnt2{
+    width: 50vw;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.logo{  
+    height: 8vh;
+    width: 8vh ;
+    border-radius: 5vw;
+    background-color: black;
+    margin: 5vh 0.4vw 0vh 0.4vw;
+    transition: 500ms ease-in-out;
+}
+
+.logo:hover{
+  width: 22.5vw;
+  border: 1px solid white;
+}
+
+.nav:hover{ 
+    transform: scale(1);
+    border: 1px solid white;
+}
+
+.navIcon{
+    height: 10vh;
+    width:  10vh;
+   object-fit: cover;
+}
+
+.img1{
+    transform: scale(0.8);
+}
+.img2{
+    transform: scale(1.2);
+
+}
+.img3{
+    transform: scale(0.8);
+}
+.img4{    
+    transform: scale(0.6);
+}

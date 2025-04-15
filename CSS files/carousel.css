@@ -1,0 +1,46 @@
+@import url('https://fonts.cdnfonts.com/css/cubano');
+
+*{
+    font-family: "sofia-pro",sans-serif;
+}
+
+
+.carouselCnt{
+    height: 60vh;
+    width: 50vw;
+    border-radius: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow:hidden;
+    margin-left: 10vw;
+}
+
+.swiper{
+    width: 100%;
+    height: fit-content;
+}
+
+.swiper-slide{
+    height: 40vh;
+    width: 50vw;
+}
+
+.swiper-slide img{
+    height: 100%;
+    width:100%;
+}
+
+.swiper .swiper-button-prev,.swiper-button-next{
+    color: rgb(255, 255, 255);
+}
+
+.swiper .swiper-pagination-bullet-active{
+    background: white;
+}
+
+.carouselImg{
+    height: 50vh;
+    width: 50vw;
+    object-fit: cover;
+}
